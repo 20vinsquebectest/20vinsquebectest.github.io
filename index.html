@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Halcyonic by HTML5 UP</title>
+		<title>20VinsQuebec</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -21,15 +21,16 @@
 							<div class="col-12">
 
 								<!-- Logo -->
-									<h1><a href="index.html" id="logo">Halcyonic</a></h1>
+									<!--<h1><a href="index.html" id="logo">Halcyonic</a></h1>-->
+                                    <h1><img src="images/logo.jpg" id="logo"/></h1>
 
 								<!-- Nav -->
 									<nav id="nav">
-										<a href="index.html">Homepage</a>
-										<a href="threecolumn.html">Three Column</a>
-										<a href="twocolumn1.html">Two Column #1</a>
-										<a href="twocolumn2.html">Two Column #2</a>
-										<a href="onecolumn.html">One Column</a>
+										<a href="index.html">Acceuil</a>
+										<a href="index2.html">Services</a>
+										<a href="twocolumn1.html">Vignobles</a>
+										<a href="twocolumn2.html">Produits</a>
+										<a href="onecolumn.html">Nous contacter</a>
 									</nav>
 
 							</div>

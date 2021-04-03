@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
 
 /*
 	Halcyonic by HTML5 UP
@@ -84,16 +85,16 @@ input, select, textarea {
 	body {
 		background: #D4D9DD url("images/bg03.jpg");
 		color: #474f51;
-		font-size: 13.5pt;
-		font-family: 'Yanone Kaffeesatz';
+		font-size: 18pt;
+		font-family: 'Open sans';
 		line-height: 1.85em;
 		font-weight: 300;
 	}
 
 	input, textarea, select {
 		color: #474f51;
-		font-size: 13.5pt;
-		font-family: 'Yanone Kaffeesatz';
+		font-size: 18pt;
+		font-family: 'Open sans';
 		line-height: 1.85em;
 		font-weight: 300;
 	}
@@ -1511,8 +1512,8 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #3B4346 url("images/bg01.jpg");
-		border-bottom: solid 1px #272d30;
+		background: #ffffff; /*url("images/bg01.jpg");*/
+		/*border-bottom: solid 1px #272d30;*/
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 	}
@@ -1520,12 +1521,19 @@ input, select, textarea {
 		#header > .container {
 			position: relative;
 			min-height: 155px;
+            /*background:black;*/
+		}
+
+		#header > .row {
+			position: relative;
+			min-height: 155px;
+            /*background:white;*/
 		}
 
 		#header h1 {
 			position: absolute;
 			left: 0;
-			bottom: 35px;
+			bottom: 5px;
 			font-size: 2.75em;
 		}
 
@@ -1542,10 +1550,11 @@ input, select, textarea {
 		}
 
 			#header nav a {
-				color: #c6c8c8;
+				color: #888888;
+                font-weight: 390;
 				text-decoration: none;
-				font-size: 1.4em;
-				margin-left: 60px;
+				font-size: 1.25em;
+				margin-left: 20px;
 				outline: 0;
 			}
 
@@ -1577,7 +1586,51 @@ input, select, textarea {
 			padding-right: 1em;
 			margin: 0 0 1em 0;
 		}
+ 
+/* PRESENTATION */
+    #presentation .split {
+       /* margin-right: 50%;*/
+        column-count: 2;
+        /*padding-right: 50%*/
+    }
 
+    #presentation h2{
+        font-size: 2em
+    }
+
+    #presentation .text{
+        /*padding: 10px 10px 10px 10px;*/
+        margin: 20px 0px 20px 0px;
+        background-color: white;
+        /*width:50%;*/
+        /*float:left;*/
+    }
+    #presentation h2{
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom:5%;
+    }
+    #presentation p{
+        padding: 5% 5% 5% 5%;
+    }
+    #presentation .image{
+        /*margin: 0px 0px 20px 0px;*/
+        width:100%;
+        height:auto;
+
+    }
+    #trinque {
+        width:inherit;
+        height:inherit;
+        padding: 20px 10px 10px 10px;
+        border-style: solid;
+        border-width: thick;
+        border-color: white;
+    }
+/*
+    #presentation > .row{
+        position:relative;
+    }*/
 /* Features */
 
 	#features {
