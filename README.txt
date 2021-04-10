@@ -1,23 +1,43 @@
-Halcyonic by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+TITLE: 
+Closest - Fully Responsive Free HTML5 template
+
+AUTHOR:
+DESIGNED & DEVELOPED by FREEHTML5.co
+
+Website: http://freehtml5.co/
+Twitter: http://twitter.com/fh5co
+Facebook: http://facebook.com/fh5co
 
 
-A somewhat unusual but interesting responsive site template. I did this one to test out a
-new pattern set I put together and I think it really came together well. As for use cases
-it's kind of unspecific so hey, use it for whatever.
+CREDITS:
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+Bootstrap
+http://getbootstrap.com/
 
-AJ
-aj@lkn.io | @ajlkn
+jQuery
+http://jquery.com/
 
+jQuery Easing
+http://gsgd.co.uk/sandbox/jquery/easing/
 
-Credits:
+Modernizr
+http://modernizr.com/
 
-	Demo Images:
-		Unsplash (unsplash.com)
+Google Fonts
+https://www.google.com/fonts/
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Icomoon
+https://icomoon.io/app/
+
+Respond JS
+https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+
+animate.css
+http://daneden.me/animate
+
+jQuery Waypoint
+https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+
+Demo Images:
+http://unsplash.com
