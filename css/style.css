@@ -20,14 +20,14 @@ body {
 }
 
 a {
-  color: #52d3aa;
+  color: #2279de;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover {
   text-decoration: underline !important;
-  color: #52d3aa !important;
+  color: #2279de !important;
 }
 a:focus, a:active {
   outline: none;
@@ -50,17 +50,17 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #52d3aa;
+  background: #2279de;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #52d3aa;
+  background: #2279de;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #52d3aa;
+  background: #2279de;
 }
 
 .box-wrap {
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 #fh5co-header .nav li a:hover, #fh5co-header .nav li a:focus {
-  color: gray !important;
+  color: dodgerblue !important;
   background: transparent;
   text-decoration: none !important;
 }
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .nav li.active a {
   color: #000;
   background: transparent;
-  border-bottom: 2px solid #52d3aa;
+  border-bottom: 2px solid #2fa8dd;
 }
 @media screen and (max-width: 992px) {
   #fh5co-header .nav li.active a {
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 480px) {
   #fh5co-header .nav li.active a {
     border-bottom: 2px solid transparent;
-    color: #52d3aa;
+    color: #2fa8dd;
   }
 }
 @media screen and (max-width: 992px) {
@@ -342,7 +342,7 @@ footer p {
 footer small {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: .01em;
   font-family: "Roboto", Arial, sans-serif;
 }
@@ -424,14 +424,14 @@ footer .social {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #52d3aa;
+  background: #3ba2cd;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #52d3aa;
+  background: #3ba2cd;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
@@ -484,5 +484,28 @@ footer .social {
 .js .animate-box {
   opacity: 0;
 }
+/*
+@media screen and (max-width: 992px) {
+    #google-form{
+        align-content: center;
+        width:740px;
+        height:1252px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #google-form{
+        align-content: center;
+        width:420px; !important
+        height:1252px;
+    }
+}
+@media screen and (min-width: 992px) {
+    #google-form{
+        align-content: center;
+        width:740px;
+        height:1252px;
+    }
+}
+*/
 
 /*# sourceMappingURL=style.css.map */

@@ -423,7 +423,12 @@
 	content: "\f081";
 }
 .icon-facebook-square:before {
-	content: "\f082";
+    content: "\f082";
+    color:dodgerblue;
+}
+.icon-facebook-square:after {
+    content: "\f082";
+    color:dodgerblue;
 }
 .icon-camera-retro:before {
 	content: "\f083";
@@ -496,6 +501,7 @@
 }
 .icon-facebook:before {
 	content: "\f09a";
+    color:dodgerblue;
 }
 .icon-facebook-f:before {
 	content: "\f09a";
@@ -1780,6 +1786,7 @@
 }
 .icon-facebook-official:before {
 	content: "\f230";
+    color:dodgerblue;
 }
 .icon-pinterest-p:before {
 	content: "\f231";
