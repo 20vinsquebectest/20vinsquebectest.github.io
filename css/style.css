@@ -484,6 +484,10 @@ footer .social {
 .js .animate-box {
   opacity: 0;
 }
+
+.iframe_sheet{
+    transform: scale(1, 1);
+}
 /*
 @media screen and (max-width: 992px) {
     #google-form{
