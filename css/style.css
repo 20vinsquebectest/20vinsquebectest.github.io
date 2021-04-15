@@ -19,6 +19,17 @@ body {
   font-weight: 300;
 }
 
+/*Center vignobles logo*/
+.col-md-4{
+    text-align: center;
+}
+
+#logo-vignoble{
+    /*max-height: 200px;*/
+    max-width: 100%
+    
+}
+
 a {
   color: #2279de;
   -webkit-transition: 0.5s;
